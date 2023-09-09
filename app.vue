@@ -126,6 +126,12 @@ useServerHead({
     "data-cf-beacon": '{"token": "753e83ba394c4eaf994322a644a949c5"}',
   }],
 })
+
+useHead({
+   meta: [
+    { name: 'msvalidate.01', content: 'E6AF4D229F4E626CC3416999B1031546' }
+  ],
+})
 </script>
 
 <template>
